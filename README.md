@@ -28,3 +28,13 @@ Ensure you have the following installed on your system:
 ### Run the project
 Run `AChessboardGame.py` and call the `chessboardGame(...)` function
 The function will create an html file with the directed graph.
+
+### Example Output
+```python
+# winnig player
+First 
+# first found winnig path
+Winning Path: [(5, 3), (6, 1), (4, 2), (2, 1)]
+```
+![Visualised search](images/hierarchy_graph.png)
+*Player 1 moves are denoted by red edges and nodes*
